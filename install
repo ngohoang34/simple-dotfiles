@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+echo "Applying custom configurations..."
+BASEDIR=$(dirname $0)
+cd $BASEDIR
+ln -sf ${PWD}/.zshrc ~/.zshrc
+echo "Configurations have been applied successfully!"
